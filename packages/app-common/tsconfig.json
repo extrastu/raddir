@@ -1,0 +1,9 @@
+{
+    "extends": "@tecra/tsconfigs/tsconfig.eslint.bundler.json",
+    "compilerOptions": {
+        "incremental": false,
+        "rootDir": "src"
+    },
+    "include": ["src/**/*"],
+    "exclude": []
+}

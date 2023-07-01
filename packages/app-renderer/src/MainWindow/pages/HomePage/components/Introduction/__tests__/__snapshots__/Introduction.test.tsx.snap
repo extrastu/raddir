@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test component \`Introduction\` should render 1`] = `
+[
+  <header
+    className="introduction"
+  >
+    <img
+      alt="logo"
+      className="logo"
+      src="logo.svg"
+    />
+    <p>
+      Edit 
+      <code>
+        src/MainWindow/components/Introduction/Introduction.tsx
+      </code>
+       and save to reload.
+    </p>
+    <a
+      className="link"
+      href="https://github.com/YSoftwareRepo/template-electron-cra"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Learn template-electron-cra
+    </a>
+  </header>,
+  <div
+    className="appDetails"
+  >
+    <code>
+      Name: 
+      tecra
+    </code>
+    <code>
+      Version: 
+      unknown
+    </code>
+    <code>
+      Electron: 
+      unknown
+    </code>
+    <code>
+      Chrome: 
+      unknown
+    </code>
+    <code>
+      Node.js: 
+      unknown
+    </code>
+    <code>
+      V8: 
+      unknown
+    </code>
+  </div>,
+]
+`;

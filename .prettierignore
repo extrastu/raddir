@@ -1,0 +1,16 @@
+# Compilation
+
+/build
+/release
+
+# Packages
+
+/app
+/configs
+/packages
+pnpm-lock.yaml
+
+# Running and Test
+
+/coverage
+/working

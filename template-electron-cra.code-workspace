@@ -1,0 +1,128 @@
+{
+    "settings": {
+        // --------------------------------------------------------------------------------- Visual Studio Code Settings
+
+        "editor.insertSpaces": true,
+        "editor.rulers": [120],
+        "editor.tabSize": 4,
+
+        "files.associations": {
+            ".eslintcache": "json",
+            ".lintstagedrc": "json",
+            ".stylelintcache": "json",
+            "electron-builder.json": "jsonc"
+        },
+        "files.exclude": {
+            "**/.DS_Store": true,
+            "**/.git": true,
+            "**/.hg": true,
+            "**/.svn": true,
+            "**/CVS": true,
+            "**/node_modules": true,
+
+            // additional
+            "app": true,
+            "configs": true,
+            "packages": true
+        },
+
+        "git.enabled": true,
+
+        "json.schemas": [
+            {
+                "fileMatch": ["electron-builder.json"],
+                "url": "https://json.schemastore.org/electron-builder.json"
+            }
+        ],
+
+        "search.useIgnoreFiles": true,
+        "search.useParentIgnoreFiles": true,
+
+        "typescript.enablePromptUseWorkspaceTsdk": true,
+        "typescript.tsdk": "tecra/node_modules/typescript/lib",
+
+        "[css]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.suggest.insertMode": "replace"
+        },
+        "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.suggest.insertMode": "replace"
+        },
+        "[json]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.suggest.insertMode": "replace"
+        },
+        "[jsonc]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.suggest.insertMode": "replace"
+        },
+        "[html]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.suggest.insertMode": "replace"
+        },
+        "[scss]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.suggest.insertMode": "replace"
+        },
+        "[typescript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.suggest.insertMode": "replace"
+        },
+        "[typescriptreact]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.suggest.insertMode": "replace"
+        },
+        "[yaml]": {
+            "editor.autoIndent": "advanced",
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.insertSpaces": true,
+            "editor.tabSize": 2
+        },
+
+        // ------------------------------------------------------------------------------------------ Extension Settings
+
+        "stylelint.validate": [
+            "css",
+            "less",
+            "postcss",
+            "sass",
+            "scss",
+            "source.css.styled",
+            "styled-css",
+            "vue",
+            "vue-html",
+            "vue-postcss"
+        ]
+    },
+    "folders": [
+        {
+            "name": "tecra",
+            "path": "."
+        },
+        {
+            "name": "@tecra/app-common",
+            "path": "packages/app-common"
+        },
+        {
+            "name": "@tecra/app-main",
+            "path": "packages/app-main"
+        },
+        {
+            "name": "@tecra/app-renderer",
+            "path": "packages/app-renderer"
+        },
+        {
+            "name": "@tecra/eslint-config",
+            "path": "packages/eslint-config"
+        },
+        {
+            "name": "@tecra/scripts",
+            "path": "packages/scripts"
+        },
+        {
+            "name": "@tecra/tsconfigs",
+            "path": "packages/tsconfigs"
+        }
+    ]
+}
